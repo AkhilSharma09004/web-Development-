@@ -1,0 +1,134 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('Images/back1.webp');
+}
+p{
+  color: rgb(231, 97, 97);
+}
+.navbar {
+  background-color: #222;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2.5em;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  
+}
+
+h1, h2 {
+  color:rgb(255, 69, 1);
+  text-align: center;
+  margin-top: 1em;
+}
+#ok{
+  width: 300px;
+  height : 15px;
+  text-align: center;
+}
+#S{
+  width:60px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5em;
+  width: 250px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #fdfdfd;
+  max-width: 300px;
+
+}
+
+.card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.details {
+  display: none;
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+
+.price {
+  font-weight: bold;
+  color: green;
+}
+
+button {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  width: 100%;
+  border: none;
+  background-color: #444;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+#wishlistItems {
+  list-style-type: disc;
+  padding: 1em 2em;
+  color: rgb(179, 0, 255);
+}
+select, #clearSearch {
+  margin-left: 1em;
+  padding: 0.4em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+#Account {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+button:nth-child(5) {
+  background-color: #aa3333;
+}s
+button:nth-child(5):hover {
+  background-color: #cc4444;
+}
+#C{
+  color: #26ff00;
+  text-decoration-color: rgb(123, 0, 255);
+}
+#totalAmount{
+  color:chartreuse;
+}
+#Bu{
+  background-color: #26ff00;
+}
