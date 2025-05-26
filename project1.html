@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Art Gallery</title>
+  <link rel="stylesheet" href="project1.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <h2>Art Gallery</h2>
+    <ul>
+       <li><a href ="#Account">Account</a></li>
+       <li><a href ="#Address">Address</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+     <input id="ok" placeholder="Search Art">
+<button id="S">Search</button>
+<select id="categoryFilter">
+  <option value="">All Categories</option>
+  <option value="abstract">Abstract</option>
+  <option value="nature">Nature</option>
+  <option value="classic">Classic</option>
+</select>
+
+<select id="priceFilter">
+  <option value="">All Prices</option>
+  <option value="low">Under $50</option>
+  <option value="mid">$50 - $100</option>
+  <option value="high">Over $100</option>
+</select>
+
+<button id="clearSearch">Clear</button>
+
+      <li><a href="wishlist.html">Wishlist</a></li>
+
+      <li><a href="#contact">Contact</a></li>
+     
+    </ul>
+  </nav>
+
+  <section id="gallery">
+    <div style="text-align: center; margin-bottom: 2em;">
+
+    <h1><b><I>Explore Our Collection</I></b></h1>
+    <div class="gallery">
+      <div class="card">
+        <img src="images/image1.jpg" alt="Art 1">
+        <h3>“Fluorite” - Oil Painting</h3>
+        <p class="price">$79.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>Conceptual abstract picture of the eye. Palette knife on canvas.</p>
+        </div>
+        <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+      </div>
+      <div class="card">
+        <img src="images/image2.jpeg" alt="Art 2">
+        <h3> Abstract Nature Art</h3>
+        <p class="price">$19.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>Floating Island With Cherry Blossom.</p>
+        </div>
+        <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+      </div>
+      <div class="card">
+        <img src="images/image3.jpeg" alt="Art 3">
+        <h3>Mona Lisa</h3>
+        <p class="price">$11179.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>a visual object or experience consciously created 
+            through an expression of skill or imagination.</p>
+        </div>
+        <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+      </div>
+      <div class="card">
+        <img src="images/image4.jpeg" alt="Art 4">
+        <h3> Abstract contemporary</h3>
+        <p class="price">$89.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>art collage portrait of young woman with flowers on face hides her eyes.</p>
+        </div>
+        <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+      </div>
+      <div class="card">
+        <img src="images/image5.jpeg" alt="Art 5">
+        <h3>The Night Rainy</h3>
+        <p class="price">$59.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>The Night Rainy Street Paintings Canvas Wall Art Artwork.</p>
+        </div>
+        <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+      </div>
+      <div class="card">
+        <img src="images/image6.jpg" alt="Art 6">
+        <h3>THE MOON MADART</h3>
+        <p class="price">$99.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>This abstract art features the black silhouette of a barren tree contrasted against a glowing moon.</p>
+        </div>
+       <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+      </div>
+      <div class="card">
+        <img src="images/image7.jpg" alt="Art 7">
+        <h3>Brown Wooden Planks</h3>
+        <p class="price">$69.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>The abstract art create in wooden log with colorful eye.</p>
+        </div>
+       <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+
+      </div>
+      <div class="card">
+        <img src="images/image8.jpg" alt="Art 7">
+        <h3>Brown Wooden Planks</h3>
+        <p class="price">$69.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>The abstract art create in wooden log with colorful eye.</p>
+        </div>
+       <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+
+      </div>
+      <div class="card">
+        <img src="images/image9.jpg" alt="Art 7">
+        <h3>Brown Wooden Planks</h3>
+        <p class="price">$69.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>The abstract art create in wooden log with colorful eye.</p>
+        </div>
+       <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+
+      </div>
+      <div class="card">
+        <img src="images/image10.webp" alt="Art 7">
+        <h3>Brown Wooden Planks</h3>
+        <p class="price">$69.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>The abstract art create in wooden log with colorful eye.</p>
+        </div>
+       <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+
+      </div>
+      <div class="card">
+        <img src="images/image11.jpg" alt="Art 7">
+        <h3>Brown Wooden Planks</h3>
+        <p class="price">$69.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>The abstract art create in wooden log with colorful eye.</p>
+        </div>
+       <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+
+      </div>
+      <div class="card">
+        <img src="images/image12.jpg" alt="Art 7">
+        <h3>Brown Wooden Planks</h3>
+        <p class="price">$69.99</p>
+        <button onclick="toggleDetails(this)">View Details</button>
+        <div class="details">
+          <p>The abstract art create in wooden log with colorful eye.</p>
+        </div>
+       <button onclick="addToWishlist(this)">Add to Wishlist</button>
+
+<button onclick="window.location.href='buy.html'">Buy</button>
+
+
+      </div>
+    </div>
+    
+  </section>
+  <section id="wishlist">
+    <h2>Wishlist</h2>
+    <ul id="wishlistItems"></ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p id = "C"><b>Email: gallery@example.com | Phone: +91 989 710 4567 </b></p>
+  </section>
+<section id="Account" style="display: none; padding: 2em;">
+  <h2>My Account</h2>
+  <p><strong>Name:</strong> <span id="accountName"></span></p>
+  <p><strong>Mobile Number:</strong> <span id="accountMobile"></span></p>
+  <h3>Previous Orders</h3>
+  <ul id="previousOrders"></ul>
+</section>
+  <script src="project1.js"></script>
+</body>
+</html>
